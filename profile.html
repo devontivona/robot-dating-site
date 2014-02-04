@@ -1,41 +1,215 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"></link>
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"></link>
-  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <nav class="navbar navbar-default" role="navigation" style="margin-top: 20px">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#">Automatic</a>
-            </div>
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Profile</a></li>
-                <li><a href="#">Search</a></li>
-                <li><a href="#">Connections <span class="badge">23</span></a></li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Account</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Notifications</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Sign Out</a></li>
+  <head>
+    <link href='http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet'>
+    <link href='assets/stylesheets/base.css' rel='stylesheet'>
+    <script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js'></script>
+  </head>
+  <body>
+    <div id='cover-photo'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12'>
+            <nav class='navbar navbar-default' role='navigation' style='margin-top: 20px'>
+              <div class='container-fluid'>
+                <div class='navbar-header'>
+                  <a class='navbar-brand' href='#'>Automatic</a>
+                </div>
+                <div class='collapse navbar-collapse'>
+                  <ul class='nav navbar-nav'>
+                    <li class='active'>
+                      <a href='#'>Profile</a>
+                    </li>
+                    <li>
+                      <a href='#'>Search</a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        Connections
+                        <span class='badge'>23</span>
+                      </a>
+                    </li>
                   </ul>
-                </li>
-              </ul>
+                  <ul class='nav navbar-nav navbar-right'>
+                    <li>
+                      <a href='#'>Account</a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Settings
+                        <b class='caret'></b>
+                      </a>
+                      <ul class='dropdown-menu'>
+                        <li>
+                          <a href='#'>Notifications</a>
+                        </li>
+                        <li>
+                          <a href='#'>Privacy</a>
+                        </li>
+                        <li class='divider'></li>
+                        <li>
+                          <a href='#'>Sign Out</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-md-2 col-md-offset-5'>
+            <div id='profile-wrapper'>
+              <img src='assets/images/profile.jpg'>
             </div>
           </div>
-        </nav>
-    </div> 
+          <div class='col-md-12'>
+            <h1>R2-D2</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <div class='container' id='details'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <div class='panel panel-default'>
+          <div class='panel-body'>
+            <h2>Industrial Automaton</h2>
+          </div>
+          <div class='panel-footer'>Manufacturer</div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='panel panel-default'>
+          <div class='panel-body'>
+            <h2>33 BBY</h2>
+          </div>
+          <div class='panel-footer'>Date Created</div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='panel panel-default'>
+          <div class='panel-body'>
+            <h2>Naboo</h2>
+          </div>
+          <div class='panel-footer'>Location</div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='panel panel-default'>
+          <div class='panel-body'>
+            <h2>R Series</h2>
+          </div>
+          <div class='panel-footer'>Product Line</div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='panel panel-default'>
+          <div class='panel-body'>
+            <h2>Astromech Droid</h2>
+          </div>
+          <div class='panel-footer'>Model</div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='panel panel-default'>
+          <div class='panel-body'>
+            <h2>32 Kilograms</h2>
+          </div>
+          <div class='panel-footer'>Mass</div>
+        </div>
+      </div>
+    </div>
   </div>
-</body>
+  <div class='container' id='comments'>
+    <div class='row'>
+      <div class='col-md-6'>
+        <h2>Details</h2>
+        <hr>
+        <div class='panel panel-default'>
+          <div class='panel-heading'>Biography</div>
+          <div class='panel-body'>
+            <p>My name is R2-D2, pronounced Artoo-Deetoo and often referred to as Artoo. I am an R2-series astromech droid manufactured by Industrial Automaton prior to 32 BBY. Resourceful and spunky, I have an adventurous personality during my many decades of operation. Along with my counterpart, the protocol droid C-3PO, I constantly found himself directly involved in pivotal moments of galactic history. My bravery, coupled with my many gadgets, played large roles in saving the galaxy time and time again.</p>
+          </div>
+        </div>
+        <div class='panel panel-default'>
+          <div class='panel-heading'>Features</div>
+          <div class='panel-body'>
+            <p>Brooks Propulsion rocket booster, Cable gun, Oil injector, Claw arm, Fusion cutter, Holoprojector / Recorder, Internal comlink, Periscope, Electric pike, Propeller, Hidden lightsaber compartment with ejector, Fire extinguisher / Smoke Screen, Small Saw, Air Cannon, Crashmat, Lariat, Submarine Mode, Collapsible Umbrella, R2parts CVD, R2-D2: expanded view, Flea Remover, Distracter, Headdress Detangler, Droid Deactivator, Computer Interface Arm, Charge Arm (electric shock), Life-form Scanner, Breakdance Mode, Polarity sink, Water pump/hose, Inflatable mattress, Media copy / storage disc drive, Jukebox, Small red "tongue" ribbon, "Confetti-creation device", Lubricant Application Arm</p>
+          </div>
+        </div>
+      </div>
+      <div class='col-md-6'>
+        <h2>Comments</h2>
+        <hr>
+        <ul class='media-list'>
+          <li class='media'>
+            <a class='pull-left' href='#'>
+              <img class='media-object' src='http://placekitten.com/128/128'>
+            </a>
+            <div class='media-body'>
+              <h4 class='media-heading'>Media heading</h4>
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+              <div class='media'>
+                <a class='pull-left' href='#'>
+                  <img class='media-object' src='http://placekitten.com/128/128'>
+                </a>
+                <div class='media-body'>
+                  <h4 class='media-heading'>Nested media heading</h4>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class='media'>
+            <a class='pull-left' href='#'>
+              <img class='media-object' src='http://placekitten.com/128/128'>
+            </a>
+            <div class='media-body'>
+              <h4 class='media-heading'>Nested media heading</h4>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+            </div>
+          </li>
+          <li class='media'>
+            <a class='pull-left' href='#'>
+              <img class='media-object' src='http://placekitten.com/128/128'>
+            </a>
+            <div class='media-body'>
+              <h4 class='media-heading'>Nested media heading</h4>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+              <div class='media'>
+                <a class='pull-left' href='#'>
+                  <img class='media-object' src='http://placekitten.com/128/128'>
+                </a>
+                <div class='media-body'>
+                  <h4 class='media-heading'>Nested media heading</h4>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                </div>
+              </div>
+              <div class='media'>
+                <a class='pull-left' href='#'>
+                  <img class='media-object' src='http://placekitten.com/128/128'>
+                </a>
+                <div class='media-body'>
+                  <h4 class='media-heading'>Nested media heading</h4>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-12' id='footer'>
+        <hr>
+      </div>
+    </div>
+  </div>
 </html>
