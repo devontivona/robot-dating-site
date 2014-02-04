@@ -1,0 +1,37 @@
+body, html {
+  width: 100%;
+  height: 100%; }
+
+#profile-wrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px white solid;
+  margin-top: 12px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); }
+  #profile-wrapper img {
+    width: 100%; }
+
+#cover-photo {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  padding: 36px; }
+  #cover-photo h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); }
+
+#details {
+  text-align: center;
+  margin-top: 24px; }
+  #details .panel h2 {
+    margin: 6px; }
+
+#comments .pull-left {
+  border-radius: 50%;
+  overflow: hidden; }
+  #comments .pull-left img {
+    width: 64px; }
+
+#footer {
+  margin-top: 30px;
+  margin-bottom: 30px; }

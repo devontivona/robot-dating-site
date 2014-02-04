@@ -1,0 +1,137 @@
+!!!
+%html
+  %head
+    %link{href: "http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css", rel: "stylesheet"}
+    %link{href: "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css", rel: "stylesheet"}
+    %link{href: "assets/stylesheets/base.css", rel: "stylesheet"}
+    %script{src: "http://code.jquery.com/jquery-2.1.0.min.js"}
+    %script{src: "http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"}
+  %body
+    #cover-photo
+      .container
+        .row
+          .col-md-12
+            %nav.navbar.navbar-default{role: "navigation", style: "margin-top: 20px"}
+              .container-fluid
+                .navbar-header
+                  %a.navbar-brand{href: "#"} Automatic
+                .collapse.navbar-collapse
+                  %ul.nav.navbar-nav
+                    %li.active
+                      %a{href: "#"} Profile
+                    %li
+                      %a{href: "#"} Search
+                    %li
+                      %a{href: "#"}
+                        Connections
+                        %span.badge 23
+                  %ul.nav.navbar-nav.navbar-right
+                    %li
+                      %a{href: "#"} Account
+                    %li.dropdown
+                      %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+                        Settings
+                        %b.caret
+                      %ul.dropdown-menu
+                        %li
+                          %a{href: "#"} Notifications
+                        %li
+                          %a{href: "#"} Privacy
+                        %li.divider
+                        %li
+                          %a{href: "#"} Sign Out
+        .row
+          .col-md-2.col-md-offset-5
+            #profile-wrapper
+              %img{ src: "assets/images/profile.jpg"  }
+          .col-md-12
+            %h1 R2-D2
+  .container#details
+    .row
+      .col-md-4
+        .panel.panel-default
+          .panel-body
+            %h2 Industrial Automaton
+          .panel-footer Manufacturer
+      .col-md-4
+        .panel.panel-default
+          .panel-body
+            %h2 33 BBY
+          .panel-footer Date Created
+      .col-md-4
+        .panel.panel-default
+          .panel-body
+            %h2 Naboo
+          .panel-footer Location
+      .col-md-4
+        .panel.panel-default
+          .panel-body
+            %h2 R Series
+          .panel-footer Product Line
+      .col-md-4
+        .panel.panel-default
+          .panel-body
+            %h2 Astromech Droid
+          .panel-footer Model
+      .col-md-4
+        .panel.panel-default
+          .panel-body
+            %h2 32 Kilograms
+          .panel-footer Mass
+  .container#comments
+    .row
+      .col-md-6
+        %h2 Details
+        %hr
+        .panel.panel-default
+          .panel-heading Biography
+          .panel-body
+            %p My name is R2-D2, pronounced Artoo-Deetoo and often referred to as Artoo. I am an R2-series astromech droid manufactured by Industrial Automaton prior to 32 BBY. Resourceful and spunky, I have an adventurous personality during my many decades of operation. Along with my counterpart, the protocol droid C-3PO, I constantly found himself directly involved in pivotal moments of galactic history. My bravery, coupled with my many gadgets, played large roles in saving the galaxy time and time again.
+        .panel.panel-default
+          .panel-heading Features
+          .panel-body
+            %p Brooks Propulsion rocket booster, Cable gun, Oil injector, Claw arm, Fusion cutter, Holoprojector / Recorder, Internal comlink, Periscope, Electric pike, Propeller, Hidden lightsaber compartment with ejector, Fire extinguisher / Smoke Screen, Small Saw, Air Cannon, Crashmat, Lariat, Submarine Mode, Collapsible Umbrella, R2parts CVD, R2-D2: expanded view, Flea Remover, Distracter, Headdress Detangler, Droid Deactivator, Computer Interface Arm, Charge Arm (electric shock), Life-form Scanner, Breakdance Mode, Polarity sink, Water pump/hose, Inflatable mattress, Media copy / storage disc drive, Jukebox, Small red "tongue" ribbon, "Confetti-creation device", Lubricant Application Arm
+      .col-md-6
+        %h2 Comments
+        %hr
+        %ul.media-list
+          %li.media
+            %a.pull-left{href: "#"}
+              %img.media-object{ src: "http://placekitten.com/128/128"}
+            .media-body
+              %h4.media-heading Media heading
+              %p Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+              .media
+                %a.pull-left{href: "#"}
+                  %img.media-object{ src: "http://placekitten.com/128/128"}
+                .media-body
+                  %h4.media-heading Nested media heading
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+          %li.media
+            %a.pull-left{href: "#"}
+              %img.media-object{ src: "http://placekitten.com/128/128"}
+            .media-body
+              %h4.media-heading Nested media heading
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+          %li.media
+            %a.pull-left{href: "#"}
+              %img.media-object{ src: "http://placekitten.com/128/128"}
+            .media-body
+              %h4.media-heading Nested media heading
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+              .media
+                %a.pull-left{href: "#"}
+                  %img.media-object{ src: "http://placekitten.com/128/128"}
+                .media-body
+                  %h4.media-heading Nested media heading
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+              .media
+                %a.pull-left{href: "#"}
+                  %img.media-object{ src: "http://placekitten.com/128/128"}
+                .media-body
+                  %h4.media-heading Nested media heading
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+  .container
+    .row
+      .col-md-12#footer
+        %hr
